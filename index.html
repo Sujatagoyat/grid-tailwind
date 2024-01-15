@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-tailwind</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+
+<body>
+    <div class="container mx-auto px-[12px]">
+        <div class=" grid lg:grid-cols-3 sm:grid-cols-2 gap-[10px] my-[50px]">
+            <div class="item-1  lg:row-span-1 ">
+                <img class="w-full h-full" src="/dist/images/image-1.png" alt="image-1.png">
+            </div>
+            <div class="item-2 lg:row-span-1">
+                <img class="w-full h-full" src="/dist/images/image-2.png" alt="image-2.png">
+            </div>
+            <div class="item-3 lg:row-span-2 row-span-1  ">
+                <img class="w-full h-full object-cover lg:rounded-[0] rounded-[30px]" src="/dist/images/image-3.png"
+                    alt="image-2.png">
+            </div>
+            <div class="item-4 lg:col-span-2 col-span-1  ">
+                <img class="w-full h-full object-cover lg:rounded-0 rounded-[30px] " src="/dist/images/image-4.png"
+                    alt="image-2.png">
+            </div>
+            <div class="item-5 lg:row-span-1   ">
+                <img class="w-full h-full " src="/dist/images/image-5.png" alt="image-2.png">
+            </div>
+            <div class="item-6 lg:row-span-1 lg:col-span-2 col-span-1 ">
+                <img class="w-full h-full object-cover lg:rounded-0 rounded-[30px]" src="/dist/images/image-6.png"
+                    alt="image-2.png">
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
